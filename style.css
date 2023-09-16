@@ -1,0 +1,202 @@
+/* Reset default margin and padding for all elements */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the body*/ 
+body {
+    background-color: #f4f4f4; /* Example color */
+    font-family: Arial, sans-serif; /* Example font family */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Default link color */
+    transition: color 0.3s ease-in-out; /* Smooth link color transition */
+}
+
+/* Style the navigation links on hover */
+nav a:hover {
+    color: #ff6600; /* Hover link color */
+}
+
+/* Style the dark mode toggle button */
+#dark-mode-toggle {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #fff; /* Default color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+/* Style the dark mode toggle button on hover */
+#dark-mode-toggle:hover {
+    color: #ff6600; /* Hover color */
+}
+
+/* Additional CSS styles can be added as needed. */
+
+/* Add your styling here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 4rem 0;
+}
+
+/* Style the hero heading */
+header h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Style the hero paragraph */
+header p {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Footer Links */
+footer a {
+    color: #ff6600;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Footer Links on Hover */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Copyright Text */
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Testimonial Styles */
+.testimonial {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #777;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
